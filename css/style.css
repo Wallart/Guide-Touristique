@@ -797,6 +797,27 @@
 	#features
 	{
 	}
+
+    #features .list-element
+    {
+    }
+
+    #features .list-element li
+    {
+        margin-bottom:20px;
+    }
+
+    #features .list-element li .image-presentation, #features .list-element li .description
+    {
+        border:1px solid black;
+        display:inline-block;
+        vertical-align:top;
+    }
+
+    #features .list-element li .description
+    {
+        margin-left:5%;
+    }
 	
 /*********************************************************************************/
 /* Banner                                                                        */
