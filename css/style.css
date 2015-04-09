@@ -800,11 +800,14 @@
 
     #features .list-element
     {
+        border: 1px solid red;
+        overflow: hidden;
     }
 
     #features .list-element li
     {
         margin-bottom:20px;
+        white-space: nowrap;
     }
 
     #features .list-element li .image-presentation, #features .list-element li .description
@@ -814,11 +817,37 @@
         vertical-align:top;
     }
 
+    #features .list-element li .image-presentation
+    {
+        width:20%;
+    }
+
+        .image-presentation img
+        {
+            width:100%;
+        }
+
     #features .list-element li .description
     {
         margin-left:5%;
+        width:75%;
     }
-	
+
+        .desc-title
+        {
+            border: 1px solid red;
+            text-align:left !important;
+            font-size:2em;
+            font-weight:bolder;
+            width:100% !important;
+        }
+
+        .desc-text
+        {
+            border: 1px solid red;
+            text-align:left !important;
+            white-space: normal;
+        }
 /*********************************************************************************/
 /* Banner                                                                        */
 /*********************************************************************************/
