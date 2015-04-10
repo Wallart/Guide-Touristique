@@ -807,6 +807,7 @@
 
     #features .list-element li
     {
+        margin-top:50px;
         margin-bottom:20px;
         white-space: nowrap;
     }
