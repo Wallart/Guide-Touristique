@@ -801,7 +801,7 @@
 
     #features .list-element
     {
-        border: 1px solid red;
+        /*border: 1px solid red;*/
         overflow: hidden;
     }
 
@@ -813,7 +813,7 @@
 
     #features .list-element li .image-presentation, #features .list-element li .description
     {
-        border:1px solid black;
+        /*border:1px solid black;*/
         display:inline-block;
         vertical-align:top;
     }
@@ -836,7 +836,7 @@
 
         .desc-title
         {
-            border: 1px solid red;
+            /*border: 1px solid red;*/
             text-align:left !important;
             font-size:2em;
             font-weight:bolder;
@@ -845,7 +845,7 @@
 
         .desc-text
         {
-            border: 1px solid red;
+            /*border: 1px solid red;*/
             text-align:left !important;
             white-space: normal;
         }
